@@ -1,0 +1,125 @@
+/* The root defines the colours and makes it easy to update in future */
+:root {
+    --primary-color: #023047;
+    --secondary-color: #8ECAE6;
+    --accent-color: #fff;
+    --text-color: #fff;
+    --background-color: #001219;
+    --footer-color: #ee9b00;
+}
+
+/* This is the general styling of the site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling of the header */
+header {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 10px 0;
+}
+
+/* Styling thr image's width */
+header img {
+    width: 150px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--accent-color);
+    margin-left: 20px;
+}
+
+.hero {
+    position: relative;
+    margin-top: 20px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    color: var(--accent-color);
+    text-align: center;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var(--text-color);
+    padding: 20px;
+    max-width: 500px;
+}
+
+.hero article {
+    max-width: 25%;
+    left: 10px;
+    right: 10px;
+}
+
+section {
+    margin: 30px 0;
+}
+
+section h2 {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
+section p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: var(--footer-color);
+    padding: 20px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer nav.sociallinks a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer nav.sociallinks img {
+    width: 24px;
+    height: auto;
+}
