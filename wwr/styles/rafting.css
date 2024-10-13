@@ -57,7 +57,7 @@ nav a {
 
 .history {
     display: grid;
-    grid-template-columns: 4rem 1fr / 1fr 1fr 1fr;
+    grid-template: 4rem 1fr / 1fr 1fr 1fr;
     align-items: center;
 
 }
@@ -142,7 +142,7 @@ section img {
 
 .adventure {
     display: grid;
-    grid-template-columns: 5rem 1fr / repeat(5, 1fr);
+    grid-template: 5rem 1fr / repeat(5, 1fr);
     align-items: center;
 }
 
