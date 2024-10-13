@@ -1,0 +1,166 @@
+
+
+/* Navigation using flex box  */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: var(--accent-color);
+    padding: 10px;
+
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: var(--accent-color);
+    text-align: center;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var(--text-color);
+    padding: 20px;
+    max-width: 250px;
+}
+
+section.intro {
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--primary-color);
+}
+
+intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+
+section.history {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--background-color);
+}
+
+.history h2 {
+    grid-column: span 3;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+
+history.article {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+history.img {
+    width: 100%;
+    height: auto;
+    background-color: #b19cd9;
+}
+
+/* Adventure awaits you section
+section.adventures {
+    padding: 40px;
+    width: 100%;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.adventure h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+
+.adventure.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.adventure.gallery.image {
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 150px;
+} */
+
+section.history img {
+    width: 100%;
+    height: auto;
+}
+
+section.history article{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+}
+
+section h2 {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
+section p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: var(--footer-color);
+    padding: 20px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer nav.sociallinks a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer nav.sociallinks img {
+    width: 24px;
+    height: auto;
+}
