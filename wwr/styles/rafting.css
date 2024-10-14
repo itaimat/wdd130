@@ -157,22 +157,26 @@ section img {
 }
 
 footer {
+    display: grid;
+    grid-template-columns: repeat(5fr);
     background-color: var(--footer-color);
     padding: 20px;
     text-align: center;
     color: var(--text-color);
 }
 
-footer p {
+/* footer p {
     margin-bottom: 10px;
-}
+    align-self: right;
+} */
 
-footer nav.sociallinks a {
-    margin: 0 10px;
-    text-decoration: none;
-}
+/* .sociallinks a {
+    justify-self: right;
+    padding: 10px 0;
+} */
 
 footer nav.sociallinks img {
+    justify-self: right;
     width: 24px;
     height: auto;
 }
