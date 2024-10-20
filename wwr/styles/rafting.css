@@ -142,9 +142,11 @@ section img {
     margin-bottom: 20px;
 }
 
+/* Adventure style */
+
 .adventure {
     display: grid;
-    grid-template: 5rem 1fr / repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
 }
 
@@ -158,24 +160,67 @@ section img {
     padding: 0 10px 10px;
 }
 
-footer{
-    display: grid;
-    grid-template-columns:1fr 1fr 40px 1fr;
-    background-color: var(--footer-color);
-    padding: 10px;
+.adventure figure {
     text-align: center;
-    color: var(--text-color);
+}
+
+/* footer Style */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--footer-color);
 }
 
 footer p {
-    padding: 2%;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
     grid-column: 2;
     margin-bottom: 5px;
-    text-align: center;
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+nav.sociallinks {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .sociallinks img {
-    justify-content: end;
     width: 20px;
     height: auto;
+    margin-right: 1px;
+}
+
+/* Form */
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.the_team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+}
+
+.the_team img {
+    width: 300px;
+    height: auto;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
