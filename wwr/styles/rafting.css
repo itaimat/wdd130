@@ -268,7 +268,7 @@ textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border-radius: 1px solid var(--secondary-color);
+    border: 1px solid var(--secondary-color);
     border-radius: 20px;
     background-color: var(--primary-color);
     color: var(--text-color);
