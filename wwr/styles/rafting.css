@@ -247,8 +247,9 @@ label {
     color: var(--accent-color);
 }
 
-input[type = "submit"] {
+input[type = "Let's Connect"] {
     background-color: var(--footer-color);
+    text-align: center;
     color: var(--text-color);
     padding: 15px;
     border: none;
@@ -257,7 +258,7 @@ input[type = "submit"] {
     margin-top: 5px;
 }
 
-input[type = "submit"]:hover {
+input[type = "Let's Connect"]:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);
 }
