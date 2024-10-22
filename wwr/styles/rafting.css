@@ -247,7 +247,9 @@ label {
     color: var(--accent-color);
 }
 
-button[type = "submit"] {
+button[type = "submit"],
+button[type = "button"]
+{
     background-color: var(--footer-color);
     text-align: center;
     color: var(--text-color);
@@ -256,6 +258,7 @@ button[type = "submit"] {
     border-radius: 15px;
     cursor: pointer;
     margin-top: 5px;
+
 }
 
 button[type = "submit"]:hover {
@@ -265,6 +268,7 @@ button[type = "submit"]:hover {
 
 input[type="text"],
 input[type="email"],
+input[type="number"],
 textarea {
     width: 100%;
     padding: 10px;
@@ -273,4 +277,39 @@ textarea {
     border-radius: 20px;
     background-color: var(--primary-color);
     color: var(--text-color);
+}
+
+/* home page form and Image */
+.image-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    column-gap: 30px;
+}
+
+/*  home Image and heading  */
+
+.container {
+    position: relative;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+
+.book-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.book-us button {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    font-size: 1.2rem;
 }
