@@ -319,6 +319,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 
 }
 
@@ -327,6 +328,7 @@ textarea {
     max-width: 300px;
     padding: 15px;
     font-size: 1.2rem;
+    text-decoration: none;
 }
 
 /* booking table Trips page */
