@@ -315,19 +315,16 @@ textarea {
     left: 5%;
 }
 
-.book-us {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-
+.book-us-container {
+    text-align: center;
 }
-
-.book-us button {
-    width: 100%;
-    max-width: 300px;
+.book-us {
+    display: inline-block;
+    background-color: var(--footer-color);
+    color: var(--text-color);
+    text-align: center;
+    border-radius: 5px;
     padding: 15px;
-    font-size: 1.2rem;
     text-decoration: none;
 }
 
@@ -375,8 +372,7 @@ nav a:hover {
 
 
 .bookings_table td button:hover,
-button[type="button"]:hover,
-button[type="submit"]:hover,
+.book-us:hover,
 button.subscribe:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);
