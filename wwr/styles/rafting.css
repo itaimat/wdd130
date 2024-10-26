@@ -253,11 +253,16 @@ button[type = "button"]
     background-color: var(--footer-color);
     text-align: center;
     color: var(--text-color);
-    padding: 15px;
+    padding: 17px;
     border: none;
     border-radius: 15px;
     cursor: pointer;
-    margin-top: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.subscribe {
+    margin-left: 150px;
 
 }
 
@@ -292,6 +297,10 @@ textarea {
 .container {
     position: relative;
 
+}
+
+.container img {
+    margin-top: 15px;
 }
 
 .overlay {
